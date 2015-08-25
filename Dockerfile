@@ -4,4 +4,4 @@ RUN apt-get update
 
 RUN apt-get -y install curl wget openvpn
 
-ENTRYPOINT openvpn
+CMD openvpn
